@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 8</title>
+    
+    <style>
+    body {margin:0px; overflow: auto;}
+
+
+    h2 {background-color: blueviolet;
+    text-align: center;
+    margin:0px;
+}
+
+.sticky {position: sticky;
+top: 0;
+z-index: 1000;}
+
+    .open1 {
+        background-color: rgb(197, 142, 142);
+        height: 400px;
+        width: 150px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 800;
+        margin: -25px;
+    }
+    .closed1 {
+        background-color: aquamarine;
+        height: 400px;
+        width: 150px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 800;
+        position: relative;
+        top: 80px;
+        }
+
+    div {display: inline-block;
+            }
+
+    .container1 {border: 1px solid;
+    padding: 50px;
+    margin: 180px;
+    margin-top: 50px;
+    align-self: center;
+    padding-bottom: 90px;
+    padding-top: 15px;
+  }
+
+  section {background-color: rgb(130, 185, 211);
+margin-top: 30px;
+margin-bottom: 30px;
+height: 600px;
+position: sticky;
+top: 0;
+z-index: 100;
+}
+
+img {height: 80px;
+width: 100px;
+display: block;
+margin: auto;
+}
+
+/* aqedan iwyeba container2 */
+
+.container2 {border: 0px solid;
+    background-color: rgb(207, 225, 231);
+    padding: 50px;
+    margin: 150px;
+    margin-top: 50px;
+    align-self: center;
+    padding-bottom: 140px;
+    padding-top: 15px;
+    width: 880px;
+} 
+.section2 {background-color: rgb(128, 136, 139);
+margin-top: 30px;
+margin-bottom: 30px;
+height: 650px;
+position: sticky;
+} 
+
+.sticky2 {position: sticky;
+top:50px}
+   
+    .blue {
+        background-color: rgb(71, 69, 218);
+        height: 400px;
+        width: 150px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 800;
+        margin: -25px;
+        position: relative;
+        z-index: -1px;
+    }
+
+    .container2 div:nth-child(1) {position: relative;
+    top: 10px; z-index: 7;}
+    .container2 div:nth-child(2) {position: relative;
+    top: 40px;z-index: 6;}
+    .container2 div:nth-child(3) {position: relative;
+    top: 80px; z-index: 5;}
+    .container2 div:nth-child(4) {position: relative;
+    top: 120px; z-index: 4;}
+    .container2 div:nth-child(5) {position: relative;
+    top: 80px; z-index: 3;}
+    .container2 div:nth-child(6) {position: relative;
+    top: 40px; z-index: 2;}
+    .container2 div:nth-child(7) {position: relative;
+    top:10px; z-index: 1;}
+
+
+
+    .green {
+        background-color: rgb(183, 199, 140);
+        height: 400px;
+        width: 150px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 800;
+        position: relative;
+        top: 80px;
+        z-index: 1;
+        }
+    </style>
+</head>
+
+
+<body>
+    <h2 class="sticky">Header</h2>
+<section>
+    <div class="container1">
+<div class="open1">1</div><div class="closed1">2</div><div class="open1">3</div><div class="closed1">4</div><div class="open1">5</div><div class="closed1">6</div><div class="open1">7</div>
+</div>
+</section>
+
+<img src="./kjgb.png"/>
+
+
+
+<section class="section2 sticky2">
+<div class="container2">
+<div class="blue">1</div> 
+<div class="green">2</div> 
+<div class="blue">3</div> 
+<div class="green">4</div> 
+<div class="blue">5</div> 
+<div class="green">6</div> 
+<div class="blue">7</div> 
+</div>
+</section>
+
+
+</body>
+</html>
